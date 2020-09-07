@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Playfair+Display:wght@400;500&display=swap');
+
+/*Header*/
+header {
+    margin-bottom: 3rem;
+}
+
+#title {
+    color: rgb(60,60,60);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+ul {
+    padding: 0rem;
+    text-align: center;
+}
+
+li {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    display: inline;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+#current {
+    font-weight: 500;    
+}
+
+/* General */
+.bodyDiv {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionHeading{
+    color: rgb(60,60,60);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Homepage */
+#picDiv {
+    margin-top: 4rem;
+}
+
+#pic {
+    display: block;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Bio */
+#bioDiv {
+    width: 60%;
+}
+
+#bioHeaderDiv {
+    display: block;
+    margin-bottom: -.5rem;
+}
+
+#bioBodyDiv {
+    display: block;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* Media */
+#mediaDiv {
+    width: 80%;
+}
+
+.mediaHeadingDiv {
+    text-align: center;
+}
+
+.mediaBodyDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+iframe {
+    margin: 1rem;
+}
